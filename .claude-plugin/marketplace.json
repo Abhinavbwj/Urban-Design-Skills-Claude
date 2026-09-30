@@ -1,0 +1,21 @@
+{
+  "name": "urban-design-skills",
+  "owner": {
+    "name": "Abhinav Bhardwaj"
+  },
+  "metadata": {
+    "description": "Marketplace for the Urban Design Skills Claude Code plugin."
+  },
+  "plugins": [
+    {
+      "name": "urban-design-skills",
+      "source": "./",
+      "description": "Claude Code skills for urban design: site analysis, masterplanning, streets, public space, TOD, zoning, sustainability scoring and Python calculators.",
+      "version": "1.2.0",
+      "author": {
+        "name": "Abhinav Bhardwaj"
+      },
+      "license": "MIT"
+    }
+  ]
+}

@@ -28,13 +28,24 @@
 
 ## Quick Start
 
-### Option 1: Use as a Plugin
+### Option 1: Install from the plugin marketplace
+
+In Claude Code, run:
+
+```
+/plugin marketplace add Abhinavbwj/Urban-Design-Skills-Claude
+/plugin install urban-design-skills@urban-design-skills
+```
+
+Update later with `/plugin marketplace update urban-design-skills`.
+
+### Option 2: Load a local clone as a plugin
 
 ```bash
 claude --plugin-dir "/path/to/Urban Design Skills"
 ```
 
-### Option 2: Copy to Your Project
+### Option 3: Copy to Your Project
 
 ```bash
 cp -r skills/ your-project/.claude/skills/
